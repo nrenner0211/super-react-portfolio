@@ -13,10 +13,13 @@ function Nav() {
             <ul className="flex-row">
             <li className="mx-2">
                 <a href="#about">
-                About me
+                About
                 </a>
             </li>
-            <li>
+            <li className='mx-2'>
+                <span>Projects</span>
+            </li>
+            <li className='mx-2'>
                 <span>Contact</span>
             </li>
             </ul>
