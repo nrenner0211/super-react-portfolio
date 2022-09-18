@@ -1,34 +1,28 @@
 import React from 'react';
-import vault from "../../assets/content/vault.gif";
+// import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardLink, } from 'reactstrap';
+import vault from "../../assets/content/vault.gif"
 import dadApp from "../../assets/content/dad-app.gif";
 
 function Gallery() {
+
   return (
+    <section className='my-5'>
+      <h1 id="gallery" className='intro'>Gallery</h1>
 
-    <section className="hero">
-
-      <div className="flex-row">
-
-          {/* vault */}
-      <h1 className="title">Vault</h1>
-      <p className="subtitle">A secure password manager</p>
-          <img
-            src={vault}
-            alt="Vault application"
-            className="img-thumbnail mx-1"
-          />
-
-          {/* dad-app */}
-
-          <img
-            src={dadApp}
-            alt="dad-app"
-            className="img-thumbnail mx-1"
-          />
-
-      </div>
+      <section className='flex-row'>
+        <div className='card'>
+          <div className='cardTitle'>Vault</div>
+            <a href="https://lh3.googleusercontent.com/dfd3cFIGjuL4RFU62v9l-K51HaYtM-3J8DnPpMcX6L0nnk-mQST6cCfwBm0PEWtCPFY=w2400?source=screenshot.guru"> <img alt="Vault Demo" src={ vault } /> </a>
+        </div>
+        <div className='card'>
+          <div className='cardTitle'>dad-app</div>
+            <a href="https://nrenner0211.github.io/dad_app/"> <img alt="dad-app Demo" src ={dadApp} /> </a>
+        </div>
+      </section>
     </section>
+  )
 
-  );
 }
+
+
 export default Gallery;

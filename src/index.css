@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 main {
 	margin: 0 auto;
@@ -5,11 +6,11 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --light: #fafafa;
-  --dark: #000000;
+  --primary: #832161;
+  --secondary: #E2FCEF;
+  --tertiary: #1BE7FF;
+  --light: #F1FFFA;
+  --dark: #170F11;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -25,6 +26,7 @@ main {
 html,
 body {
   min-height: 100%;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -36,7 +38,6 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -46,7 +47,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -108,10 +108,11 @@ button {
   outline: none;
   cursor: pointer;
   margin: 0 1px;
-  background-color: var(--secondary);
+  background-color: var(--tertiary);
 }
 
 button:hover {
+  background-color: var(--primary);
   opacity: .8;
 }
 
@@ -231,7 +232,8 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  padding: 20px;
+  width: 35%;
   text-align: center;
 }
 
@@ -240,6 +242,20 @@ textarea {
   height: 300px;
   margin-bottom: 50px;
   cursor: pointer;
+}
+
+.intro {
+  padding: 30px 30px 15px 30px;
+  border-bottom: solid 2px var(--light);
+  margin-bottom: 50px;
+  width: 15%;
+  cursor: pointer;
+}
+
+.intro:hover {
+  color: var(--tertiary);
+  border-bottom: solid 2px var(--tertiary);
+  transition: .5s;
 }
 
 .modalBackdrop {
