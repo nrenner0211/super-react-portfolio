@@ -1,31 +1,31 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 
 function Nav() {
 
   return (
     <header>
         <h2>
-            <a href="/">
+            <Link to="/">
             <span role="img" aria-label="emoji">🎨</span> Nicolette Renner
-            </a>
+            </Link>
         </h2>
         <nav className='navbar'>
             <ul className="flex-row">
             <li className="mx-2">
-                <a href='#about'>
+                <Link to='/'>
                     About
-                </a>
+                </Link>
             </li>
             <li className='mx-2'>
-                <a href='/gallery'>
+                <Link to='/gallery'>
                     Gallery
-                </a>
+                </Link>
             </li>
             <li className='mx-2'>
-                <a href='/contact'>
+                <Link to='/contact'>
                     Contact
-                </a>
+                </Link>
             </li>
             <li className='mx-2'>
                 <a href="#footer">
