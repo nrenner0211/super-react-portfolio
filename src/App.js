@@ -18,12 +18,12 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </div>
 
-      <div className="container">
         <Footer></Footer>
+
       </div>
     </div>
+
   );
 }
 

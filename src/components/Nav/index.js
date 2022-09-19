@@ -29,7 +29,7 @@ function Nav() {
             </li>
             <li className='mx-2'>
                 <a href="#footer">
-                    Extras
+                    More
                 </a>
             </li>
             </ul>
