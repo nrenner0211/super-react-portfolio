@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import github from '../../assets/cover/gh-screenshot.png';
 import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
@@ -38,10 +37,7 @@ function Contact() {
 
     <h1 id="contact" className='intro'>Contact</h1>
     <div className='center'>
-        <div className='card'>
-            <div className='cardTitle'>GitHub</div>
-            <a href='https://github.com/nrenner0211'><img className='screenshot' alt='GitHub profile screenshot' src={ github }></img></a>
-        </div>
+
         <form id="contact-form" onSubmit={handleSubmit}>
 
             <div>
@@ -54,7 +50,7 @@ function Contact() {
 
             <div>
             <label htmlFor="message">Message:</label>
-            <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+            <textarea name="message" rows="5" placeholder="Feedback Welcome!" defaultValue={message} onBlur={handleChange} />
             </div>
 
             {errorMessage && (
