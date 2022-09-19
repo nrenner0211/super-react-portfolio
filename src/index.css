@@ -7,7 +7,7 @@ main {
 }
 :root {
   --primary: #832161;
-  --secondary: #E2FCEF;
+  --secondary: #4361EE;
   --tertiary: #1BE7FF;
   --light: #F1FFFA;
   --dark: #170F11;
@@ -77,13 +77,14 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
-  margin-top: 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
 }
 
 a {
   color: var(--tertiary);
   text-decoration: none;
+  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -107,13 +108,12 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--tertiary);
+  margin: 10px;
+  background-color: var(--secondary);
 }
 
 button:hover {
-  background-color: var(--primary);
-  opacity: .8;
+  background-color: var(--tertiary);
 }
 
 button[disabled] {
@@ -135,7 +135,8 @@ form {
 
 input {
   font-size: 1rem;
-  padding: 0.25rem;
+  padding: .25rem;
+  margin: .25rem;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -153,6 +154,8 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color: var(--tertiary);
+  transition: .5s;
 }
 
 nav  li {
@@ -166,6 +169,12 @@ textarea {
 	padding: 5px;
 }
 
+.center {
+  display:flex;
+  align-items: center;
+  padding: 10vh;
+}
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -176,6 +185,16 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.screenshot {
+  margin: auto;
+  border: solid 1px var(--secondary);
+  border-radius: 5vh;
+}
+
+.screenshot:hover {
+  border: solid 1px var(--tertiary);
 }
 
 .space-between {
@@ -232,9 +251,16 @@ textarea {
 }
 
 .card {
-  padding: 20px;
-  width: 35%;
+  
+  padding: 20px 40px 60px 20px;
+  width: 45%;
   text-align: center;
+}
+
+.cardTitle {
+  padding: 10px;
+  font-size: 3vh;
+  cursor: pointer;
 }
 
 .img-thumbnail {
@@ -247,8 +273,8 @@ textarea {
 .intro {
   padding: 30px 30px 15px 30px;
   border-bottom: solid 2px var(--light);
-  margin-bottom: 50px;
-  width: 15%;
+  margin-bottom: 100px;
+  width: 25vh;
   cursor: pointer;
 }
 
@@ -258,54 +284,31 @@ textarea {
   transition: .5s;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
+.isRounded {
+  border-radius: 50%;
 }
 
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
+.navActive {
+  color: var(--tertiary);
 }
 
 button {
-	background: var(--primary);
+	background: var(--secondary);
 	border: 0;
-	border-radius: 5px;
+	border-radius: 10px;
 	color: #fff;
 	cursor: pointer;
-	font-size: 16px;
+	font-size: 2vh;
 	font-weight: 600;
 	margin-bottom: 30px;
-	padding: 10px 15px;	
+	padding: 15px 20px;	
 }
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
+	color: var(--tertiary);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
-	
-}
-
-.navActive {
-  color: var(--secondary);
 }

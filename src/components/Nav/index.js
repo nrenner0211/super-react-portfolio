@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Nav() {
 
   return (
@@ -9,21 +10,26 @@ function Nav() {
             <span role="img" aria-label="emoji">🎨</span> Nicolette Renner
             </a>
         </h2>
-        <nav>
+        <nav className='navbar'>
             <ul className="flex-row">
             <li className="mx-2">
-                <a href="#about">
+                <a href='#about'>
                     About
                 </a>
             </li>
             <li className='mx-2'>
-                <a href="#gallery">
+                <a href='/gallery'>
                     Gallery
                 </a>
             </li>
             <li className='mx-2'>
-                <a href="#contact">
+                <a href='/contact'>
                     Contact
+                </a>
+            </li>
+            <li className='mx-2'>
+                <a href="#footer">
+                    Extras
                 </a>
             </li>
             </ul>
