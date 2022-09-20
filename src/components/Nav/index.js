@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import favicon from '../../assets/cover/favicon.ico';
 
 function Nav() {
 
@@ -7,7 +8,7 @@ function Nav() {
     <header>
         <h2>
             <Link to="/">
-            <span role="img" aria-label="emoji">🎨</span> Nicolette Renner
+            <img className='favicon' alt='favicon' src={ favicon }></img> Nicolette Renner
             </Link>
         </h2>
         <nav className='navbar'>

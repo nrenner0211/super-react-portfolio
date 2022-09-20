@@ -14,7 +14,7 @@ function Gallery() {
 
         <div className='card'>
           <div className='cardTitle'>Vault</div>
-          <p>Express.js, MySQL2, Sequelize, Handlebars, Bulma</p>
+          <p className='subtitle'>Express.js, MySQL2, Sequelize, Handlebars, Bulma</p>
             <img alt="Vault demo" src={ vault } />
             <a href='https://github.com/nrenner0211/password-manager'>Repository</a> <br/>
             <a href='https://safe-escarpment-80538.herokuapp.com/'>Visit Vault</a>
@@ -22,7 +22,7 @@ function Gallery() {
 
         <div className='card'>
           <div className='cardTitle'>dad-app</div>
-          <p>HTML, Node.js, Materialize.css, OpenWeather API</p>
+          <p className='subtitle'>HTML, Node.js, Materialize.css, OpenWeather API</p>
             <img alt='dad-app demo' src ={dadApp} />
             <a href='https://github.com/nrenner0211/dad_app'>Repository</a> <br/>
             <a href='https://nrenner0211.github.io/dad_app/'>Visit dad-app</a>
@@ -30,7 +30,7 @@ function Gallery() {
 
         <div className='card'>
           <div className='cardTitle'>Original Portfolio</div>
-          <p>Vanilla HTML & CSS, Updated with Bootstrap</p>
+          <p className='subtitle'>Vanilla HTML & CSS, Updated with Bootstrap</p>
             <img alt='portfolio demo' src={ portfolio } />
             <a href='https://github.com/nrenner0211/my-first-portfolio'>Repository</a> <br/>
             <a href='https://nrenner0211.github.io/my-first-portfolio/'>Visit Portfolio</a>
@@ -38,7 +38,7 @@ function Gallery() {
 
         <div className='card'>
           <div className='cardTitle'>NoSQL-API</div>
-          <p>Express.js, <br/>
+          <p className='subtitle'>Express.js, <br/>
           MongoDB, Insomia</p>
             <img alt='README-Generator demo' src={ nosqlApi } />
             <a href='https://github.com/nrenner0211/nosql-api'>Repository</a> <br/>

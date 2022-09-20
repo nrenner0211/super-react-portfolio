@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand&display=swap');
 
 main {
 	margin: 0 auto;
@@ -26,7 +26,7 @@ main {
 html,
 body {
   min-height: 100%;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -129,11 +129,6 @@ img {
   max-width: 100%;
 }
 
-span[role="img"] {
-  font-size: 3vh;
-  cursor: default;
-}
-
 form {
   width: 40%;
 }
@@ -208,6 +203,25 @@ textarea {
   justify-content: space-between;
 }
 
+.subtitle {
+  color: #c9cfcb;
+}
+
+.transition {
+  font-size: 2vh;
+}
+
+.transition:hover {
+  background-color: var(--dark);
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.favicon {
+  cursor: pointer;
+  padding: 2vh 0vh 0vh 2vh;
+}
+
 .flex-end {
   justify-content: flex-end;
 }
@@ -258,13 +272,12 @@ textarea {
 }
 
 .card {
-  
   padding: 3vh;
   width: 50vh;
-  text-align: center;
 }
 
 .cardTitle {
+  font-family: 'Nunito', sans-serif;
   padding: 10px;
   font-size: 3vh;
   cursor: pointer;
