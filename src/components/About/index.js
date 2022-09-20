@@ -11,7 +11,7 @@ function About() {
           <div className='container center'>
 
           <p className='transition'>
-            <div>Hello! I'm Niki, an aspiring Full-Stack Developer. Thanks for checking out my portfolio! In my free time, you can find me gardening and playing with my dogs.</div> 
+            <div>Hello! I'm Niki, tech enthusiast and aspiring Full-Stack Developer. Thanks for checking out my new, improved portfolio made with React 18.2.0. For the last year, I've been learning web development via <a href="https://bootcamp.charlotte.edu/coding/">UNC-Charlotte</a> and endless open-source education on the internet, such as <a href='https://www.freecodecamp.org/'>FreeCodeCamp</a>. In my free time, you can find me gardening, improving my home, and playing with my dogs.</div> 
 
             <div className='cardTitle'>
               Causes I'm passionate about:
