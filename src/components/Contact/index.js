@@ -42,11 +42,13 @@ function Contact() {
         <form id="contact-form" onSubmit={handleSubmit}>
 
             <div>
-            <input type="text" placeholder="Name" name="name" defaultValue={name} onBlur={handleChange} />
+            <label htmlFor="name">name:</label><br />
+            <input type="text" placeholder="your name" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
 
             <div>
-            <input type="email" placeholder="Email" name="email" defaultValue={email} onBlur={handleChange} />
+            <label htmlFor="email">email:</label><br/>
+            <input type="email" placeholder="youremail@g.co" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
 
             <div>

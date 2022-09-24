@@ -16,10 +16,8 @@ function Footer() {
                         <FaLinkedin /> LinkedIn
                     </div>
 
-                    <a href='https://www.linkedin.com/in/nicolette-renner' target={'_blank'}>
-
+                    <a href='https://www.linkedin.com/in/nicolette-renner' target={'_blank'} rel="noreferrer">
                         <img className='screenshot' alt='LinkedIn profile screenshot' src={linkedin}></img></a>
-
                 </div>
 
                 <div className='card'>
@@ -27,11 +25,11 @@ function Footer() {
                     <br />
                     <a href="tel:681.443.1530"><FaMobileAlt /> Phone</a>
                     <br />
-                    <a href="https://docs.google.com/document/d/1_cKcm8su5IJsvIRQgv5t-ZNC9XwxU1QRKR7VMmWz2P0/edit?usp=sharing" target={'_blank'}><FiDownload /> Download Resume</a>
+                    <a href="https://docs.google.com/document/d/1_cKcm8su5IJsvIRQgv5t-ZNC9XwxU1QRKR7VMmWz2P0/edit?usp=sharing" target={'_blank'} rel="noreferrer"><FiDownload /> Download Resume</a>
                 </div>
                 <div className='card'>
                     <div className='cardTitle'><FaGithub /> GitHub</div>
-                    <a href='https://github.com/nrenner0211' target={'_blank'}><img className='screenshot' alt='GitHub profile screenshot' src={github}></img></a>
+                    <a href='https://github.com/nrenner0211' target={'_blank'} rel="noreferrer"><img className='screenshot' alt='GitHub profile screenshot' src={github}></img></a>
                 </div>
             </section>
             <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
