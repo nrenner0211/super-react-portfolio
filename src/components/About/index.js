@@ -6,7 +6,8 @@ function About() {
   return (
 
     <section className="my-5">
-      <h1 id="about" className='intro'><MdOutlineWavingHand /> About Me</h1>
+      <h1 id="about" className='intro'><MdOutlineWavingHand /> 
+      About&nbsp;Me</h1>
       <div className='container center'><img src={coverImage} className="my-5 isRounded" style={{ width: "50%" }} alt="cover" /></div>
 
       <div className='container center'>

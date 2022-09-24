@@ -36,7 +36,7 @@ function Contact() {
   return (
     <section>
 
-      <h1 id="contact" className='intro'><TiMessages/> Contact</h1>
+      <h1 id="contact" className='intro'><TiMessages/>Contact</h1>
     <div className='center'>
 
         <form id="contact-form" onSubmit={handleSubmit}>
