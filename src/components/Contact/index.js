@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import {TiMessages} from "react-icons/ti";
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -35,7 +36,7 @@ function Contact() {
   return (
     <section>
 
-    <h1 id="contact" className='intro'>Contact</h1>
+      <h1 id="contact" className='intro'><TiMessages/> Contact</h1>
     <div className='center'>
 
         <form id="contact-form" onSubmit={handleSubmit}>

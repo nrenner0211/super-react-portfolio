@@ -3,11 +3,12 @@ import github from '../../assets/cover/gh-screenshot.png';
 import linkedin from '../../assets/cover/linkedin.png';
 import { FaMobileAlt, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { FiMail, FiDownload } from 'react-icons/fi';
+import { IoMdShare } from 'react-icons/io';
 
 function Footer() {
     return (
         <section className='my-5'>
-            <h1 id='footer' className='intro'>Socials & More</h1>
+            <h1 id='footer' className='intro'><IoMdShare /> Socials & More</h1>
 
             <section className='flex-column center'>
                 <div className='card'>

@@ -3,12 +3,13 @@ import vault from '../../assets/content/vault.gif'
 import dadApp from '../../assets/content/dad-app.gif';
 import portfolio from '../../assets/content/portfolio-1.gif';
 import nosqlApi from '../../assets/content/nosql-api-routes.gif';
+import {BiLandscape} from "react-icons/bi"
 
 function Gallery() {
 
   return (
     <section className='my-5'>
-      <h1 id="gallery" className='intro'>Gallery</h1>
+      <h1 id="gallery" className='intro'><BiLandscape /> Gallery</h1>
 
       <section className='flex-row'>
 
