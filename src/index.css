@@ -5,6 +5,7 @@ main {
 	max-width: 90%;
   padding: 50px 30px;
 }
+
 :root {
   --primary: #832161;
   --secondary: #4361EE;
@@ -16,7 +17,6 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-
 }
 
 * {
@@ -188,6 +188,11 @@ textarea {
   flex-wrap: wrap;
 }
 
+span{
+  display: flex;
+  flex-direction: row;
+}
+
 .screenshot {
   margin: auto;
   border: solid 2px var(--secondary);
@@ -283,6 +288,7 @@ textarea {
   cursor: pointer;
 }
 
+
 .img-thumbnail {
   width: auto;
   height: 300px;
@@ -313,5 +319,18 @@ textarea {
   color: var(--tertiary);
 }
 
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
+ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 

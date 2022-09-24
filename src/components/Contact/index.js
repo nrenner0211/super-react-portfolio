@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import {TiMessages} from "react-icons/ti";
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -35,17 +36,19 @@ function Contact() {
   return (
     <section>
 
-    <h1 id="contact" className='intro'>Contact</h1>
+      <h1 id="contact" className='intro'><TiMessages/>Contact</h1>
     <div className='center'>
 
         <form id="contact-form" onSubmit={handleSubmit}>
 
             <div>
-            <input type="text" placeholder="Name" name="name" defaultValue={name} onBlur={handleChange} />
+            <label htmlFor="name">name:</label><br />
+            <input type="text" placeholder="your name" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
 
             <div>
-            <input type="email" placeholder="Email" name="email" defaultValue={email} onBlur={handleChange} />
+            <label htmlFor="email">email:</label><br/>
+            <input type="email" placeholder="youremail@g.co" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
 
             <div>
@@ -60,9 +63,8 @@ function Contact() {
             )}
             <button data-testid="button" type="submit">Submit</button>
         </form>
-
     </div>
-
+    
     </section>
   );
 }
