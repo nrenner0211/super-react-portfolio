@@ -41,7 +41,7 @@ function Gallery() {
       <div className='card'>
         <div className='cardTitle'>NoSQL-API</div>
         <p className='subtitle'>Express.js, 
-          MongoDB, Insomia</p>
+          MongoDB, GraphQL, Insomia</p>
         <img alt='README-Generator demo' src={nosqlApi} />
         <a href='https://github.com/nrenner0211/nosql-api'>
           <h1><DiGitBranch /></h1></a> 

@@ -20,7 +20,7 @@
     "workbox-webpack-plugin": "^6.5.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
