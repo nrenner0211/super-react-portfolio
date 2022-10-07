@@ -31,7 +31,7 @@ function Gallery() {
       </div>
 
       <div className='card'>
-        <div className='cardTitle'>Original Portfolio</div>
+        <div className='cardTitle'>OG Portfolio</div>
         <p className='subtitle'>Vanilla HTML & CSS, Updated with Bootstrap</p>
         <img alt='portfolio demo' src={portfolio} />
         <a href='https://github.com/nrenner0211/my-first-portfolio'><h1><DiGitBranch /></h1></a> 

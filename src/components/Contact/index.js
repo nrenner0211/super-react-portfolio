@@ -37,23 +37,22 @@ function Contact() {
     <section>
 
       <h1 id="contact" className='intro'><TiMessages/>Contact</h1>
-    <div className='center'>
 
         <form id="contact-form" onSubmit={handleSubmit}>
 
             <div>
-            <label htmlFor="name">name:</label><br />
+            <label htmlFor="name">Name:</label><br />
             <input type="text" placeholder="your name" name="name" defaultValue={name} onBlur={handleChange} />
             </div>
 
             <div>
-            <label htmlFor="email">email:</label><br/>
+            <label htmlFor="email">Email:</label><br/>
             <input type="email" placeholder="youremail@g.co" name="email" defaultValue={email} onBlur={handleChange} />
             </div>
 
             <div>
-            <label htmlFor="message">Message:</label>
-            <textarea name="message" rows="5" placeholder="Feedback Welcome!" defaultValue={message} onBlur={handleChange} />
+            <label htmlFor="message"></label>
+            <textarea name="message" rows="5" placeholder="Leave a message!" defaultValue={message} onBlur={handleChange} />
             </div>
 
             {errorMessage && (
@@ -63,7 +62,6 @@ function Contact() {
             )}
             <button data-testid="button" type="submit">Submit</button>
         </form>
-    </div>
     
     </section>
   );

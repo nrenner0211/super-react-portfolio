@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./components/Nav";
-import About from "./components/About";
+import Home from "./components/Home";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -14,7 +14,7 @@ function App() {
 
       <div className="container">
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -7,11 +7,11 @@
   - [About](#about)
   - [Acceptance Criteria](#acceptance-criteria)
   - [Links](#links)
-  - [Contact](#contact)
+  - [Contact Me](#contact-me)
 
 ## About
 
-Welcome to my portfolio! Made with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my new, improved portfolio made with React 18.2.0. Clean, responsive design. Progressive Web Application. Installable!
 
 ## Acceptance Criteria
 
@@ -71,7 +71,9 @@ Welcome to my portfolio! Made with [Create React App](https://github.com/faceboo
 
 [Deployed](https://nrenner0211.github.io/super-react-portfolio/)
 
-## Contact
+## Contact Me
+
+I love to network. Feel free to contact me with any feedback, questions, or concerns!
 
 [![Linkedin Badge](https://img.shields.io/badge/-nrenner0211-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nicolette-renner/)](https://www.linkedin.com/in/nicolette-renner/)
 [![GitHub Badge](https://img.shields.io/badge/-nrenner0211-7261A3?style=flat-square&logo=Github&logoColor=white&link=https://github.com/nrenner0211)](https://github.com/nrenner0211)

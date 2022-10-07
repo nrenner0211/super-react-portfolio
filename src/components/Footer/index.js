@@ -21,11 +21,11 @@ function Footer() {
                 </div>
 
                 <div className='card'>
-                    <a href="mailto://nrenner0211@gmail.com"><FiMail /> Email</a>
+                    <a href="mailto://nicolette.rachelle11@gmail.com"><FiMail /> Email</a>
                     <br />
                     <a href="tel:681.443.1530"><FaMobileAlt /> Phone</a>
                     <br />
-                    <a href="https://docs.google.com/document/d/1_cKcm8su5IJsvIRQgv5t-ZNC9XwxU1QRKR7VMmWz2P0/edit?usp=sharing" target={'_blank'} rel="noreferrer"><FiDownload /> Download Resume</a>
+                    <a href="https://docs.google.com/document/d/1_cKcm8su5IJsvIRQgv5t-ZNC9XwxU1QRKR7VMmWz2P0/edit?usp=sharing" target={'_blank'} rel="noreferrer"><FiDownload /> Resume</a>
                 </div>
                 <div className='card'>
                     <div className='cardTitle'><FaGithub /> GitHub</div>

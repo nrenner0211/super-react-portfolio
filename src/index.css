@@ -77,14 +77,14 @@ h6 {
 }
 
 p {
-  line-height: 1.5;
-  font-size: 1.3rem;
+  line-height: 1.7;
+  font-size: 1.6rem;
 }
 
 a {
   color: var(--secondary);
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 a:hover {
@@ -122,7 +122,7 @@ button {
 
 button:hover {
   background-color: var(--tertiary);
-  transition: .3s;
+  transition: .5s;
 }
 
 img {
@@ -130,7 +130,7 @@ img {
 }
 
 form {
-  width: 40%;
+  width: 50rem;
 }
 
 input {
@@ -144,7 +144,7 @@ input {
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
+  border: 1rem solid var(--secondary);
   box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
 
@@ -170,15 +170,30 @@ textarea {
 	padding: 5px;
 }
 
+.avatar {
+  border: solid 2px var(--tertiary);
+}
+
+.hello {
+  font-size: 3rem;
+  padding: 7rem;
+}
+
+.hello:hover {
+  transform: scale(1.5);
+  transition: .5s;
+  cursor: pointer;
+}
+
 .center {
   display:flex;
   align-items: center;
-  padding: 10vh;
+  padding: 5rem;
 }
 
 .container {
-  width: 85%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 1200rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -188,7 +203,7 @@ textarea {
   flex-wrap: wrap;
 }
 
-span{
+span {
   display: flex;
   flex-direction: row;
 }
@@ -213,18 +228,19 @@ span{
 }
 
 .transition {
-  font-size: 2vh;
+  font-size: 2rem;
 }
 
 .transition:hover {
   background-color: var(--dark);
   transform: scale(1.5);
   transition: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 .favicon {
   cursor: pointer;
-  padding: 2vh 0vh 0vh 2vh;
+  padding: 2rem 0 0 2rem;
 }
 
 .flex-end {
@@ -277,30 +293,27 @@ span{
 }
 
 .card {
-  padding: 3vh;
-  width: 50vh;
+  padding: 3rem;
+  width: 45rem;
 }
 
 .cardTitle {
   font-family: 'Nunito', sans-serif;
-  padding: 10px;
-  font-size: 3vh;
+  padding: 2rem;
+  font-size: 2.5rem;
   cursor: pointer;
 }
 
-
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
+/* .cardTitle:hover {
+  font-size: 3rem;
+  transition: .7s;
+} */
 
 .intro {
-  font-size: 7vh;
+  font-size: 4.1rem;
   padding: 30px 30px 15px 30px;
   border-bottom: solid 2px var(--light);
-  margin: 100px;
+  margin: 10rem;
   width: 40vh;
   cursor: pointer;
 }
