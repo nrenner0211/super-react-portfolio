@@ -11,11 +11,12 @@ function Gallery() {
 
   return (
     <section className='my-5'>
+
+<CurrentProject></CurrentProject>
+
       <h1 id="gallery" className='intro'><BiLandscape /> Gallery</h1>
 
       <section className='flex-row'>
-
-        <CurrentProject></CurrentProject>
 
         <div className='card'>
           <div className='cardTitle'>Vault</div>
