@@ -11,7 +11,7 @@
 
 ## About
 
-Welcome to my new, improved portfolio made with React 18.2.0. Clean, responsive design. Progressive Web Application. Installable!
+Welcome to my new, improved portfolio made with React 18.2.0. Clean, responsive design. Progressive Web Application.
 
 ## Links
 

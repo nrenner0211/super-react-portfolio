@@ -5,6 +5,7 @@ import portfolio from '../../assets/content/portfolio-1.gif';
 import nosqlApi from '../../assets/content/nosql-api-routes.gif';
 import { BiLandscape } from "react-icons/bi"
 import { DiGitBranch } from "react-icons/di"
+import CurrentProject from '../CurrentProject';
 
 function Gallery() {
 
@@ -13,6 +14,8 @@ function Gallery() {
       <h1 id="gallery" className='intro'><BiLandscape /> Gallery</h1>
 
       <section className='flex-row'>
+
+        <CurrentProject></CurrentProject>
 
         <div className='card'>
           <div className='cardTitle'>Vault</div>
