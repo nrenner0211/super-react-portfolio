@@ -1,7 +1,11 @@
+// external imports
 import React from 'react';
-import coverImage from "../../assets/cover/nikiavatar.jpg";
 import { MdOutlineWavingHand } from "react-icons/md";
 import { GoFlame } from "react-icons/go";
+
+// internal imports
+import coverImage from "../../assets/cover/nikiavatar.jpg";
+import CurrentProject from '../CurrentProject';
 
 function Home() {
   return (
@@ -24,6 +28,8 @@ function Home() {
           <br />
           <a href='https://nami.org/Get-Involved/Awareness-Events/Mental-Health-Awareness-Month'>Mental Health Awareness</a>
         </p>
+
+      <CurrentProject/>
 
     </section>
 

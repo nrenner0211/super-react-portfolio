@@ -5,14 +5,12 @@ import portfolio from '../../assets/content/portfolio-1.gif';
 import nosqlApi from '../../assets/content/nosql-api-routes.gif';
 import { BiLandscape } from "react-icons/bi"
 import { DiGitBranch } from "react-icons/di"
-import CurrentProject from '../CurrentProject';
+
 
 function Gallery() {
 
   return (
     <section className='my-5'>
-
-<CurrentProject></CurrentProject>
 
       <h1 id="gallery" className='intro'><BiLandscape /> Gallery</h1>
 
