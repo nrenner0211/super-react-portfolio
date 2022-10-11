@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/super-react-portfolio/static/css/main.d1325aed.css",
+    "main.js": "/super-react-portfolio/static/js/main.6405bd66.js",
+    "static/js/787.a2cb61a6.chunk.js": "/super-react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/dad-app.gif": "/super-react-portfolio/static/media/dad-app.ac11d9ad0a1ba0ca6287.gif",
+    "static/media/nosql-api-routes.gif": "/super-react-portfolio/static/media/nosql-api-routes.5bfc010abfe506f97323.gif",
+    "static/media/portfolio-1.gif": "/super-react-portfolio/static/media/portfolio-1.b40c9c4b15761238f0d5.gif",
+    "static/media/vault.gif": "/super-react-portfolio/static/media/vault.abfd756be19271b93918.gif",
+    "static/media/electiopic.png": "/super-react-portfolio/static/media/electiopic.643a2f1c1e83161217f0.png",
+    "static/media/linkedin.png": "/super-react-portfolio/static/media/linkedin.a137a9ef39a1eabac6a5.png",
+    "static/media/gh-screenshot.png": "/super-react-portfolio/static/media/gh-screenshot.7518e88291191a4a2f2a.png",
+    "static/media/nikiavatar.jpg": "/super-react-portfolio/static/media/nikiavatar.ef1f54bfc2e3e8aadf78.jpg",
+    "service-worker.js": "/super-react-portfolio/service-worker.js",
+    "index.html": "/super-react-portfolio/index.html",
+    "main.d1325aed.css.map": "/super-react-portfolio/static/css/main.d1325aed.css.map",
+    "main.6405bd66.js.map": "/super-react-portfolio/static/js/main.6405bd66.js.map",
+    "787.a2cb61a6.chunk.js.map": "/super-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1325aed.css",
+    "static/js/main.6405bd66.js"
+  ]
+}
