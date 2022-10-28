@@ -7,32 +7,33 @@ import { IoMdShare } from 'react-icons/io';
 
 function Footer() {
     return (
-        <section className='my-5'>
-            <h1 id='footer' className='intro'><IoMdShare /> Socials & More</h1>
-
-            <section className='flex-column center'>
+        <section className='container-fluid'>
+            <h1 className='footerIntro'><IoMdShare /> Socials & More</h1>
+            <div className='nav'>
+                <div className='card'><a href="mailto://nrenner0211@gmail.com"><FiMail /> nrenner0211@gmail.com</a></div>
+                    
                 <div className='card'>
-                    <div className='cardTitle'>
-                        <FaLinkedin /> LinkedIn
+                <a href="tel:681.443.1530"><FaMobileAlt /> 681.443.1530</a>
+                </div>
+                    
+                <div className='card'>
+                <a href="https://docs.google.com/document/d/13DlB6UvOeICmNPo0Wa2KsTLz3KguqtGZYS50eYDBWw4/edit?usp=sharing" target={'_blank'} rel="noreferrer"><FiDownload /> Resumé</a>
+                </div>
+            </div>
+            
+                <div className='nav'>
+                    <div className='card'>
+                        <div className='cardTitle'>
+                            <FaLinkedin /> LinkedIn
+                        </div>
+                        <a href='https://www.linkedin.com/in/nicolette-renner' target={'_blank'} rel="noreferrer">
+                        <img className='img-fluid screenshot' alt='LinkedIn profile screenshot' src={linkedin}></img></a>
                     </div>
-
-                    <a href='https://www.linkedin.com/in/nicolette-renner' target={'_blank'} rel="noreferrer">
-                        <img className='screenshot' alt='LinkedIn profile screenshot' src={linkedin}></img></a>
+                    <div className='card'>
+                        <div className='cardTitle'><FaGithub /> GitHub</div>
+                        <a href='https://github.com/nrenner0211' target={'_blank'} rel="noreferrer"><img className='img-fluid screenshot' alt='GitHub profile screenshot' src={github}></img></a>
+                    </div>
                 </div>
-
-                <div className='card'>
-                    <a href="mailto://nicolette.rachelle11@gmail.com"><FiMail /> Email</a>
-                    <br />
-                    <a href="tel:681.443.1530"><FaMobileAlt /> Phone</a>
-                    <br />
-                    <a href="https://docs.google.com/document/d/1_cKcm8su5IJsvIRQgv5t-ZNC9XwxU1QRKR7VMmWz2P0/edit?usp=sharing" target={'_blank'} rel="noreferrer"><FiDownload /> Resume</a>
-                </div>
-                <div className='card'>
-                    <div className='cardTitle'><FaGithub /> GitHub</div>
-                    <a href='https://github.com/nrenner0211' target={'_blank'} rel="noreferrer"><img className='screenshot' alt='GitHub profile screenshot' src={github}></img></a>
-                </div>
-            </section>
-            <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
         </section>
     )
 }

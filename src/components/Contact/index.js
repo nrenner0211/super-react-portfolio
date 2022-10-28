@@ -34,35 +34,26 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className='container-fluid'>
+      <h1 className='intro'><TiMessages/> Contact</h1>
+      <section className=''>
+        <form id="contact-form" className='container-custom' onSubmit={handleSubmit}>
 
-      <h1 id="contact" className='intro'><TiMessages/>Contact</h1>
-
-        <form id="contact-form" onSubmit={handleSubmit}>
-
-            <div>
-            <label htmlFor="name">Name:</label><br />
-            <input type="text" placeholder="your name" name="name" defaultValue={name} onBlur={handleChange} />
-            </div>
-
-            <div>
-            <label htmlFor="email">Email:</label><br/>
-            <input type="email" placeholder="youremail@g.co" name="email" defaultValue={email} onBlur={handleChange} />
-            </div>
-
-            <div>
-            <label htmlFor="message"></label>
-            <textarea name="message" rows="5" placeholder="Leave a message!" defaultValue={message} onBlur={handleChange} />
-            </div>
-
+            <label htmlFor="name">Name:</label>
+            <input type="text" placeholder="Name" name="name" defaultValue={name} onBlur={handleChange} />
+            <label htmlFor="email">Email:</label>
+            <input type="email" placeholder="Email" name="email" defaultValue={email} onBlur={handleChange} />
+            <label htmlFor="message">Message:</label>
+            <textarea name="message" placeholder="Leave a message :-)" defaultValue={message} onBlur={handleChange} />
+            
             {errorMessage && (
             <div>
                 <p className="error-text">{errorMessage}</p>
             </div>
             )}
-            <button data-testid="button" type="submit">Submit</button>
+            <button className="btn" data-testid="button" type="submit">Submit</button>
         </form>
-    
+      </section>
     </section>
   );
 }
