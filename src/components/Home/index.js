@@ -5,34 +5,38 @@ import { GoFlame } from "react-icons/go";
 
 // internal imports
 import coverImage from "../../assets/cover/nikiavatar.jpg";
-import CurrentProject from '../CurrentProject';
 
 function Home() {
   return (
-
-    <section className="my-5">
-      <h1 id="about" className='intro'> 
-      About&nbsp;Me</h1>
-      <div className='container center'>
-        <img src={coverImage} className="avatar isRounded" style={{ width: "50%" }} alt="Avatar" />
-        <p className='hello'> Hello! <MdOutlineWavingHand /> </p>
-      </div>
-      
-        <p>
-          <p> I'm Niki, tech enthusiast and aspiring Full-Stack Developer. Thanks for checking out my new, improved portfolio made with React 18.2.0. For the last year, I've been learning web development via <a href="https://bootcamp.charlotte.edu/coding/">UNC-Charlotte</a> and endless open-source education on the internet, such as <a href='https://www.freecodecamp.org/'>FreeCodeCamp</a>. In my free time, you can find me gardening, improving my home, and playing with my dogs.</p>
-
-          <div className='cardTitle'>
-            <GoFlame /> Causes I'm passionate about:
-          </div>
-          <a href='https://savethebees.com/'>Save the Bees</a>
-          <br />
-          <a href='https://nami.org/Get-Involved/Awareness-Events/Mental-Health-Awareness-Month'>Mental Health Awareness</a>
-        </p>
-
-      <CurrentProject/>
+    <section className="container-fluid">
+      <h1 className='intro'> 
+        About&nbsp;Me <MdOutlineWavingHand />
+      </h1>
+        <div className='container-custom'>
+        <img src={coverImage} className="img-fluid avatar" alt="Avatar" />
+          <p className='card'> 
+            I'm Niki, certified Full Stack Coder with 1+ years experience in web development. Skilled front-end developer. Lifelong learner. What can I do for you? <br/>
+            <strong>Top Skills: </strong> HTML, CSS, Sass, Javascript, Node.js, MERN Stack, React.js, Progressive Web Applications, Web Accessibility Standards <br/>
+            <strong>Seeking Remote Work in the USA</strong> <br/>
+            <a href="https://nrenner0211.github.io/my-first-portfolio/">View HTML, Bootstrap, & Sass Portfolio</a> <br/>
+            <a href="https://docs.google.com/document/d/13DlB6UvOeICmNPo0Wa2KsTLz3KguqtGZYS50eYDBWw4/edit?usp=sharing" target={'_blank'} rel="noreferrer">View Resumé</a>
+          </p>
+        </div>
+        <div className='cardTitle container-custom'>
+          <ul className='row'>
+            <li>
+            <GoFlame /> I'm passionate about:
+            </li>
+            <li>
+              <a href='https://savethebees.com/'>Save the Bees</a>
+            </li>
+            <li>
+              <a href='https://nami.org/Get-Involved/Awareness-Events/Mental-Health-Awareness-Month'>Mental Health Awareness</a>
+            </li>
+          </ul>
+        </div>
 
     </section>
-
   );
 }
 
