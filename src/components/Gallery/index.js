@@ -11,7 +11,7 @@ function Gallery() {
       <section className='container-fluid'>
         <h1 className='intro'><BiLandscape /> Gallery</h1>
         <section className='container-custom'>
-          <div className='card'>
+          <div className='gallery-card'>
             <div className='cardTitle'>Vault</div>
             <p className='subtitle'>Express.js, MySQL2, Sequelize, Handlebars, Bulma</p>
             <img alt="Vault demo" className="img-fluid" src={vault} />
@@ -19,7 +19,7 @@ function Gallery() {
             <a href='https://safe-escarpment-80538.herokuapp.com/'>Visit Vault</a>
           </div>
 
-          <div className='card'>
+          <div className='gallery-card'>
             <div className='cardTitle'>dad-app</div>
             <p className='subtitle'>HTML, Node.js, Materialize.css, OpenWeather API</p>
             <img alt='dad-app demo' className="img-fluid" src={dadApp} />
