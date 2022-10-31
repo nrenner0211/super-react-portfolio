@@ -10,7 +10,7 @@
 
 ## About
 
-Welcome to portfolio made with React.js! Clean, responsive design. Progressive Web Application.
+Welcome to my portfolio made with React! Clean, responsive design. Progressive Web Application.
 
 ## Links
 

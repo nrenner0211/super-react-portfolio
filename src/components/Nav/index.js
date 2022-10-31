@@ -1,19 +1,19 @@
 import React from 'react';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome } from "react-icons/fa";
 
 function Nav() {
-    const [fix, setFix] = useState(false)
+    // const [fix, setFix] = useState(false)
 
-    function setFixed() {
-        if (window.scrollY >= 392) {
-            console.log(setFix(true))
-        } else {
-            setFix(false)
-        }
-    }
-    window.addEventListener("scroll", setFixed)
+    // function setFixed() {
+    //     if (window.scrollY >= 392) {
+    //         console.log(setFix(true))
+    //     } else {
+    //         setFix(false)
+    //     }
+    // }
+    // window.addEventListener("scroll", setFixed)
 
     return (
             <nav className='navbar'>
