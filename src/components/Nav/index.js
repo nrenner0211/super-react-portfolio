@@ -1,7 +1,7 @@
 import React from 'react';
 // import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
 
 function Nav() {
     // const [fix, setFix] = useState(false)
@@ -26,7 +26,7 @@ function Nav() {
                 <ul>
                     <li>
                         <Link to="/" title="home" aria-label="home">
-                            <FaHome/>
+                            Home
                         </Link>
                     </li>
                     <li>
