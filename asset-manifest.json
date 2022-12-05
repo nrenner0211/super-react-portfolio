@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/super-react-portfolio/static/css/main.e812bccd.css",
-    "main.js": "/super-react-portfolio/static/js/main.84e6ef8b.js",
+    "main.css": "/super-react-portfolio/static/css/main.06290e73.css",
+    "main.js": "/super-react-portfolio/static/js/main.899abda1.js",
     "static/js/787.a2cb61a6.chunk.js": "/super-react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/intergalacticResume.gif": "/super-react-portfolio/static/media/intergalacticResume.2df58ed52585bd880a63.gif",
     "static/media/dad-app.gif": "/super-react-portfolio/static/media/dad-app.ac11d9ad0a1ba0ca6287.gif",
     "static/media/vault.gif": "/super-react-portfolio/static/media/vault.abfd756be19271b93918.gif",
     "static/media/bg.jpg": "/super-react-portfolio/static/media/bg.8eec6261c8e69257e561.jpg",
@@ -11,12 +12,12 @@
     "static/media/nikiavatar.jpg": "/super-react-portfolio/static/media/nikiavatar.6bbb694d3a3d4d4942ab.jpg",
     "service-worker.js": "/super-react-portfolio/service-worker.js",
     "index.html": "/super-react-portfolio/index.html",
-    "main.e812bccd.css.map": "/super-react-portfolio/static/css/main.e812bccd.css.map",
-    "main.84e6ef8b.js.map": "/super-react-portfolio/static/js/main.84e6ef8b.js.map",
+    "main.06290e73.css.map": "/super-react-portfolio/static/css/main.06290e73.css.map",
+    "main.899abda1.js.map": "/super-react-portfolio/static/js/main.899abda1.js.map",
     "787.a2cb61a6.chunk.js.map": "/super-react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e812bccd.css",
-    "static/js/main.84e6ef8b.js"
+    "static/css/main.06290e73.css",
+    "static/js/main.899abda1.js"
   ]
 }
