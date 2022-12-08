@@ -3,17 +3,12 @@
   "name": "react-portfolio",
   "icons": [
     {
-      "src": "assets/cover/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
       "src": "assets/icons/16.png",
       "type": "image/png",
       "sizes": "16x16"
     },
     {
-      "src": "./assets/icons/72.png",
+      "src": "assets/icons/72.png",
       "type": "image/png",
       "sizes": "72x72"
     },
@@ -60,9 +55,10 @@
       "sizes": "1024x1024"
     }
   ],
+  "id": "/super-react-portfolio/",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#a1ffc8",
   "background_color": "#ffffff",
   "orientation": "portrait"
 }

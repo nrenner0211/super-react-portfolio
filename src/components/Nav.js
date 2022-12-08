@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import { useState } from 'react';
-// import { FaHome } from "react-icons/fa";
 
 function Nav() {
     // const [fix, setFix] = useState(false)
@@ -35,8 +33,8 @@ function Nav() {
                         </Link>
                     </li>
                     <li>
-                        <Link to='/contact'>
-                            Contact
+                        <Link to='/support'>
+                            Support
                         </Link>
                     </li>
                     <li>

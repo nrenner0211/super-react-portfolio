@@ -1,3 +1,8 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyles = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Quicksand&display=swap');
 
 :root {
@@ -23,10 +28,10 @@ body {
   line-height: 1.5;
   font-size: 1em;
   letter-spacing: .1em;
-  background-image: url('../src/assets/cover/bg.jpg');
+  background-color: var(--dark);
   background-position: center;
   background-size: cover;
-  color: var(--dark);
+  color: var(--light);
 }
 
 a {
@@ -45,54 +50,6 @@ p {
   font-size: 1.3rem;
 }
 
-strong {
-  font-size: 1.4rem;
-}
-
-button {
-  font-size: 1.3rem;
-  text-decoration: none;
-  padding: 1.3rem;
-  border-radius: 15px;
-  cursor: pointer;
-  border: none;
-  margin: 1.8rem;
-  color: var(--light);
-  background-color: var(--secondary);
-}
-
-button:hover {
-  background-color: var(--tertiary);
-  transition: .5s;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  font-size: 1.5rem;
-}
-
-input {
-  max-width: 100%;
-  padding: 1rem;
-  margin: 1rem;
-  border: 2px solid var(--dark);
-  outline: none;
-  border-radius: 5px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 2px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
-}
-
-textarea {
-  max-width: 100%;
-  padding: 3rem;
-}
-
 .avatar {
   border: solid 2px var(--secondary);
   border-radius: 50%;
@@ -104,21 +61,6 @@ textarea {
   display:flex;
   align-items: center;
   padding: 8rem;
-}
-
-.container-custom {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.screenshot {
-  max-width: 15rem;
-  max-height: 15rem;
-  margin: auto;
-  border: solid 2px var(--secondary);
-  border-radius: 5vh;
 }
 
 .subtitle {
@@ -158,7 +100,7 @@ textarea {
 }
 
 .container-fluid:hover .intro {
-  transform: translateX(250%);
+  /* transform: translateX(250%); */
   color: var(--secondary);
   border-bottom: solid 2px var(--secondary);
 }
@@ -226,7 +168,7 @@ nav a {
 .navbar a:hover {
   color: var(--secondary);
   transition: .2s;
-  text-shadow: 3px 3px 5px #030527;
+  text-shadow: 2px 2px 8px #000;
 }
 
 nav li {
@@ -239,56 +181,57 @@ nav li {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .container-custom ul {
-    margin: 1rem;
-    padding-top: 10rem;
-    width: auto;
-  }
+    .container-custom ul {
+        margin: 1rem;
+        padding-top: 10rem;
+        width: auto;
+    }
 
-  .navbar {
-    max-width: 100%;
-    height: auto;
-    display: flex;
-  }
+    .navbar {
+        max-width: 100%;
+        height: auto;
+        display: flex;
+    }
 
-  .navbar ul  {
-    width: 100%;
-    flex-direction: column;
-  }
+    .navbar ul  {
+        width: 100%;
+        flex-direction: column;
+    }
 
-  .navbar .flex-start {
-    display: none;
-  }
+    .navbar .flex-start {
+        display: none;
+    }
 
-  .intro {
-    pointer-events: none;
-    font-size: 1.8rem;
-  }
+    .intro {
+        pointer-events: none;
+        font-size: 1.8rem;
+    }
 
-  .container-fluid:hover .intro {
-    pointer-events: none;
-  }
+    .container-fluid:hover .intro {
+        pointer-events: none;
+    }
 
-  .nav {
-    width: auto;
-    flex-direction: column;
-  }
-}
+    .nav {
+        width: auto;
+        flex-direction: column;
+    }
+    }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .navbar .flex-start {
-    visibility: visible;
-  }
-  .container-fluid:hover .intro {
-    pointer-events: none;
-  }
-}
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+    .navbar .flex-start {
+        visibility: visible;
+    }
+    .container-fluid:hover .intro {
+        pointer-events: none;
+    }
+    }
 
 
-/* Extra large devices */
-@media only screen and (min-width: 1024px) {
-  .navbar .flex-start {
-    visibility: visible;
-  }
-}
+    /* Extra large devices */
+    @media only screen and (min-width: 1024px) {
+    .navbar .flex-start {
+        visibility: visible;
+    }
+    }
+`
