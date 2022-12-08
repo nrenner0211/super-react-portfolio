@@ -1,29 +1,36 @@
 import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { ThemeProvider } from "styled-components";
+import { GlobalStyles } from "./components/styles/Global";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Gallery from "./components/Gallery";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import { Route, Routes } from "react-router-dom";
+
+
+const theme = {
+  colors: {
+    body: '#050543',
+    footer: '#003333'
+  },
+  mobile: '768px',
+}
 
 function App() {
-
   return (
-    <div>
-      <Nav></Nav>
+    <ThemeProvider theme = {theme}>
+      <>
+      <GlobalStyles />
+        <Nav/>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/gallery" element={<Gallery />} />
+            {/* <Route path="/support" element={<Support />} /> */}
+          </Routes>
 
-      <div className="container">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-
-        <Footer></Footer>
-
-      </div>
-    </div>
-
+        <Footer/>
+      </>
+    </ThemeProvider>
   );
 }
 

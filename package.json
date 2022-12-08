@@ -17,12 +17,13 @@
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.4",
     "sass": "^1.55.0",
+    "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4",
     "workbox-webpack-plugin": "^6.5.4"
   },
   "scripts": {
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
